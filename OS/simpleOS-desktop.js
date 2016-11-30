@@ -61,7 +61,7 @@ let SimpleOS = {
             }
         },
         apps : {
-            favoris : ["files", "simpleweb"], /*,"firefox","help","Simple office"],*/
+            favoris : ["files", "simpleweb", "terminal"], /*,"firefox","help","Simple office"],*/
             desktop : [
                 {col1: "", col2 : "", col3 : "", col4 : "", col5 : "", col6 : "", col7 : "", col8 : "", col9 : "", col10 : "", col11 : "", col12 : ""},
                 {col1: "", col2 : "", col3 : "", col4 : "", col5 : "", col6 : "", col7 : "", col8 : "", col9 : "", col10 : "", col11 : "", col12 : ""},
@@ -87,7 +87,7 @@ let swl = {
 let apps = {
     files : {
         config : {
-            icone : "<i class='fa fa-folder-open-o fa-3x' onClick='apps.files.open()'></i>"
+            icone : "<i class='fa fa-folder-open-o fa-2x' onClick='apps.files.open()'></i>"
         },
         open : function (directory = "/") {
             alert("okay")
@@ -95,10 +95,26 @@ let apps = {
     },
     simpleweb : {
         config : {
-            icone : "<i class='fa fa-globe fa-3x' onClick='apps.simpleweb.open()'></i>"
+            icone : "<i class='fa fa-globe fa-2x' onClick='apps.simpleweb.open()'></i>"
         },
         open : function (url = "http://www.google.com") {
 
+        }
+    },
+    terminal : {
+        config : {
+            icone : '<i class="fa fa-terminal fa-2x" onClick="apps.terminal.open()"></i>'
+        },
+        open : function () {
+            let command = prompt("commande ?", "help , ls , cd , ...")
+            switch (command) {
+                case "help":
+                    alert("Bienvenue dans l'invite de commande temporaire.")
+                    break;
+                default:
+                    alert("commande non reconnu !")
+                    break;
+            }
         }
     }
 }
