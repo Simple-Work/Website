@@ -1,0 +1,6 @@
+A propos ...
+27/08/16
+0.1
+test
+Ceci n'est pas une erreur mais une aide
+SWsecurity::alert()§Survient si rien n'est passer en paramètre,SWsecurity->report()§Problème de type "division par zéro"

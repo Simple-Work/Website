@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /ressources/
+Disallow: /file/
+Disallow: /rss/iframe.php
+Disallow: /rss/rss.xml
+Disallow: /error/

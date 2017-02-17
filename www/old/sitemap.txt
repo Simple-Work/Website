@@ -1,0 +1,14 @@
+http://www.simple-work.tk/index.php
+http://www.simple-work.tk/contact/index.php
+http://www.simple-work.tk/dev/index.php
+http://www.simple-work.tk/dev/download/index.php
+http://www.simple-work.tk/dev/doc/v0/php/index.php
+http://www.simple-work.tk/dev/doc/v0/js/index.php
+http://www.simple-work.tk/dev/doc/v0/api/index.php
+http://www.simple-work.tk/dev/doc/v0/error/index.php
+http://www.simple-work.tk/dev/doc/v0/test/index.php
+http://www.simple-work.tk/dev/doc/index.php
+http://www.simple-work.tk/entreprise/index.php
+http://www.simple-work.tk/particulier/index.php
+http://www.simple-work.tk/rss/index.php
+http://www.simple-work.tk/tips/index.php
