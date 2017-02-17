@@ -1,0 +1,6 @@
+A propos ...
+24/08/16
+0.1
+test
+Ce code est en cours de rédaction
+83025:Survient si rien n'est passer en paramètre,83276:Problème de type "division par zéro"

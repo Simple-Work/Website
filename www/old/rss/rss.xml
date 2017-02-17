@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Simple Work - Un web plus sûr pour tous</title>
+    <link>http://simple-work.tk</link>
+    <description>Simple Work est un projet gratuit et open source dont le but est de proposer aux utilisateurs
+      une éxperience plus sûr, aussi bien sur le web que sur leur ordinateur.</description>
+    <language>fr</language>
+    <!-- La news la plus recente doit etre en haut ! -->
+    <item>
+        <title>Le tableau de bord pour les particuliers est prêt</title>
+        <link>http://simple-work.tk/particulier</link>
+        <description>Le tableau de bord pour les particuliers est enfin créé !
+        Par contre il manque encore quelques ressources telle que les guides et autres tutoriels
+        ainsi que les liens vers les réseaux sociaux.</description>
+    </item>
+    <item>
+        <title>Hello world !</title>
+        <link>http://simple-work.tk</link>
+        <description>Ça y est, le flux RSS du site est prêt !</description>
+    </item>
+</channel>
+</rss>
+<!--
+    <item>
+        <title></title>
+        <link></link>
+        <description></description>
+    </item>
+<!-- no error -->
