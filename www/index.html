@@ -1,161 +1,171 @@
 <!DOCTYPE html>
 <html>
-<title>Simple Work - Your life in Your hand</title>
+<title>Simple Work - Your life's in Your hands</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.fa-laptop,.fa-coffee {font-size:200px}
-</style>
 <body>
 
-<!-- Navbar -->
+<!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <ul class="w3-navbar w3-red w3-card-2 w3-left-align w3-large">
-    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
-      <a class="w3-padding-large w3-hover-text-black w3-hover-nonee w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  <ul class="w3-navbar w3-white w3-wide w3-padding-8 w3-card-2">
+    <li>
+      <a href="http://www.simple-work.tk" class="w3-margin-left"><b>SW</b> Simple Work</a>
     </li>
-    <li><a href="#" class="w3-padding-large w3-blue">Simple Work</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-text-black w3-hover-none">Simple OS</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-text-black w3-hover-none">Link 2</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-text-black w3-hover-none">Link 3</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-text-black w3-hover-none">Link 4</a></li>
+    <!-- Float links to the right. Hide them on small screens -->
+    <li class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-left">Projects</a>
+      <a href="#features" class="w3-left">Features</a>
+      <a href="#about" class="w3-left">About</a>
+      <a href="#contact" class="w3-left w3-margin-right">Contact</a>
+    </li>
   </ul>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
-    <ul class="w3-navbar w3-left-align w3-large w3-red w3-border">
-      <li><a class="w3-padding-large w3-hover-text-black w3-hover-none" href="#">Simple OS</a></li>
-      <li><a class="w3-padding-large w3-hover-text-black w3-hover-none" href="#">Link 2</a></li>
-      <li><a class="w3-padding-large w3-hover-text-black w3-hover-none" href="#">Link 3</a></li>
-      <li><a class="w3-padding-large w3-hover-text-black w3-hover-none" href="#">Link 4</a></li>
-    </ul>
-  </div>
 </div>
 
 <!-- Header -->
-<header class="w3-container w3-red w3-center w3-padding-128">
-  <h1 class="w3-margin w3-jumbo">Simple Work</h1>
-  <p class="w3-xlarge">Your life is in Your hand</p>
-  <button class="w3-btn w3-hover-blue w3-padding-16 w3-large w3-margin-top w3-round-jumbo">En savoir plus ...</button>
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+  <img class="w3-image" src="bg-image.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-black"><span class="w3-padding w3-white w3-opacity-min"><b>SW</b></span> <span class="w3-hide-small w3-text-light-grey"> Simple Work</span></h1>
+    <h3 class="w3-large w3-text-light-grey w3-padding-32 w3-hide-small">Your life's in Your hands</h3>
+  </div>
 </header>
 
-<!-- Project Grid -->
-<div class="w3-row-padding w3-center w3-margin-top">
-  <div class="w3-third">
-    <div class="w3-card-2 w3-padding-top" style="min-height:460px">
-    <h4>Simple OS</h4><br>
-    <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-    <p>Easy to use</p>
-    <p>Try without install</p>
-    <p>Don't keep your data</p>
-    <p>Totalemently FREE</p>
-    <br>
-    <div class="w3-btn-group">
-        <button class="w3-btn w3-teal w3-round-jumbo" style="width:30%;margin-right:2%;margin-left:18%;">Try it !</button>
-        <button class="w3-btn w3-indigo w3-round-jumbo" style="width:30%;margin-right:18%;margin-left:2%;">More info</button>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Simple OS</div>
+        <img src="SimpleOS.png" alt="Simple OS" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Simple Assist</div>
+        <img src="SimpleAssist.png" alt="Simple Assist" style="width:100%;">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Simple Box</div>
+        <img src="SimpleBox.png" alt="Simple Box" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Simple Computer</div>
+        <img src="SimpleComputer.png" alt="Simple Computer" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+<!-- About Section -->
+<div class="w3-container w3-padding-128" id="features">
+  <h3 class="w3-center">Features</h3>
+  <p class="w3-center w3-large">Simple Work for everyone</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter" onClick="window.open('http://www.simple-work.tk/user','_blank')">
+      <i class="fa fa-users w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Users</p>
+      <p>Simple OS and a lot of software and online apps for your daily life.</p>
+    </div>
+    <div class="w3-quarter" onClick="window.open('http://www.simple-work.tk/dev','_blank')">
+      <i class="fa fa-code w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Developpers</p>
+      <p>A lot of script, tools and library for your projects and website.</p>
+    </div>
+    <div class="w3-quarter" onClick="window.open('http://www.simple-work.tk/industry','_blank')">
+      <i class="fa fa-industry w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Company</p>
+      <p>An solution for your company organization like intranet, servers and others.</p>
+    </div>
+    <div class="w3-quarter" onClick="window.open('http://www.simple-work.tk/custom','_blank')">
+      <i class="fa fa-cogs w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Custom</p>
+      <p>A custom solution for international company, not free product, ...</p>
     </div>
   </div>
 </div>
 
-<div class="w3-third">
-  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
-  <h4>Simple Assist</h4><br>
-  <i class="fa fa-android w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-  <p>Available every where</p>
-  <p>Don't need internet</p>
-  <p>Fully customizable</p>
-  <p>Never track your data</p>
-  <br>
-  <div class="w3-btn-group">
-    <button class="w3-btn w3-teal w3-round-jumbo" style="width:30%;margin-right:2%;margin-left:18%;">Try it !</button>
-    <button class="w3-btn w3-indigo w3-round-jumbo" style="width:30%;margin-right:18%;margin-left:2%;">More info</button>
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">About</h3>
+    <p>Simple Work is a nonprofit organization that defends the privacy of its users by providing them with free software and tools that do not track their data.<br>
+    All of these programs work under Simple OS, a secure environment that runs on your computer as an operating system, or directly in your browser, making it accessible anywhere !</p>
+    </p>
   </div>
-  </div>
-</div>
 
-<div class="w3-third">
-  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
-  <h4>Simple Apps</h4><br>
-  <i class="fa fa-shopping-cart w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-  <p>Securised Apps</p>
-  <p>For all utilities</p>
-  <p>Verified by community</p>
-  <p>Try app online</p>
-  <br>
-  <div class="w3-btn-group">
-    <button class="w3-btn w3-teal w3-round-jumbo" style="width:30%;margin-right:2%;margin-left:18%;">Go now !</button>
-    <button class="w3-btn w3-indigo w3-round-jumbo" style="width:30%;margin-right:18%;margin-left:2%;">More info</button>
-  </div>
-  </div>
-</div>
-</div>
-
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Simple OS</h1>
-      <h5 class="w3-padding-32">Simple OS est un <a href="https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27exploitation">système d'exploitation</a> qui regroupe à la fois une simplicité de prise en main époustouflante, et un niveau de personalisation à toute épreveuve. Tout en conservant un niveau de sécurité maximal !</h5>
-
-      <p class="w3-text-grey">Simple OS à était créer pour répondre aux besoins d'un maximun d'utilisateur, dans des domaines complétement différents. Que se soit dans les collèges, les lycées et les universités avec Simple School; dans les entreprises de toutes tailles, avec ou sans service à distance grâce à Simple Industry. Mais surtout, pour les particuliers grâce à Simple OS, disposant de toutes les fonctionalités dont vous avez besoins, accesibles depuis ordi, smartphone et même sur le web depuis un ordinateur n'utilisant pas Simple OS !!!
-      Alors, prêt à l'éssayer ?</p>
-      <button class="w3-btn w3-teal">Se renseigner</button> <button class="w3-btn w3-indigo">Éssayer en ligne ! <span style="font-size:0.8em;">(pas d'installation)<span></button>
-      </p>
+  <!-- TEAM PEOPLE -->
+  
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="avatar-louis.png" alt="John" style="width:100%">
+      <h3>Louis Maillard</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>The original creator of Simple Work, he is the current project manager.</p>
+      <p><a href="#contact" class="w3-btn-block">Contact</a></p>
     </div>
-
-    <div class="w3-third w3-center">
-      <i class="fa fa-laptop w3-padding-64 w3-text-red"></i>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="searching.png" alt="Jane" style="width:100%">
+      <h3>Maybe you !</h3>
+      <p class="w3-opacity">Developpers</p>
+      <p>We're looking for someone for this job<br> &nbsp; </p>
+      <p><a href="#contact" class="w3-btn-block">apply online</a> </p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="searching.png" alt="Mike" style="width:100%">
+      <h3>Maybe you !</h3>
+      <p class="w3-opacity">Graphic designer</p>
+      <p>We're looking for someone for this job<br> &nbsp; </p>
+      <p><a href="#contact" class="w3-btn-block">apply online</a></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="searching.png" alt="Dan" style="width:100%">
+      <h3>Maybe you !</h3>
+      <p class="w3-opacity">Others</p>
+      <p>We're looking for someone for this job<br> &nbsp; </p>
+      <p><a href="#contact" class="w3-btn-block">apply online</a></p>
     </div>
   </div>
-</div>
 
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
-    </div>
+  <!-- security comment  -->
 
-    <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Contact</h3>
+    <p>Use this form as you wish, to contact us, send us your opinion, ...</p>
+    <p>Or use this mail : <a href="mailto:contact@simple-work.tk"><code>contact@simple-work.tk</code></a></p>
+    <form action="http://www.simple-work.tk/contact.php" target="_blank">
+      <input class="w3-input" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-btn w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
   </div>
-</div>
-
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+  
+<!-- End page content -->
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+<footer class="w3-container w3-light-grey w3-padding-64 w3-center w3-opacity">  
   <div class="w3-xlarge w3-padding-32">
-   <a href="#" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
-   <a href="#" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
-   <a href="#" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
-   <a href="#" class="w3-hover-text-grey"><i class="fa fa-flickr"></i></a>
-   <a href="#" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+   <a target='_blank' href="#" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+   <a target='_blank' href="#" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
+   <a target='_blank' href="https://www.tumblr.com/blog/simplework" class="w3-hover-text-grey"><i class="fa fa-tumblr-square"></i></a>
  </div>
- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p><a target='_blank' href='http://simple-work-tk.copyright01.com/'>Copyright © 2015-2017 simple-work.tk - N° de dépôt 94562A</a></p>
 </footer>
-
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
 
 </body>
 </html>
